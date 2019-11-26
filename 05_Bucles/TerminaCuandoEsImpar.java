@@ -5,7 +5,8 @@
  * @author Luis José Sánchez
  */
 public class TerminaCuandoEsImpar {
-  public static void main(String[] args) {
+ 
+	public static void main(String[] args) {
     int numero;
       
     do {
@@ -17,6 +18,7 @@ public class TerminaCuandoEsImpar {
       } else {
         System.out.println("No me gustan los números impares, adiós.");
       }
-    } while (numero % 2 == 0);
+    } while (numero % 2 != 0);
   }
+	
 }
